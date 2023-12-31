@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /* Remember that usually the root font size of the browser is 16px */
+    /* so if we want 10px we need to divide 10/16 = 0.625 that's it 62.5% */
+}
+
+/* Then can used rem in all CSS properties and simply with change the font-size of the html
+the entire page will be resized */
+
+body {
+    box-sizing: border-box;
+}
